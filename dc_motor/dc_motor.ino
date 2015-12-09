@@ -23,7 +23,4 @@ digitalWrite(9,LOW);
 digitalWrite(10,HIGH);
 delay(5000);
 Serial.println("Reverse");
-digitalWrite(9,LOW);
-digitalWrite(10,LOW);
-delay(3000);
 }
