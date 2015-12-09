@@ -14,12 +14,15 @@ void loop() {
 digitalWrite(9,HIGH);
 digitalWrite(10,LOW);
 delay(5000);
+Serial.println("Forward");
 digitalWrite(9,LOW);
 digitalWrite(10,LOW);
 delay(3000);
+Serial.println("stop");
 digitalWrite(9,LOW);
 digitalWrite(10,HIGH);
 delay(5000);
+Serial.println("Reverse");
 digitalWrite(9,LOW);
 digitalWrite(10,LOW);
 delay(3000);
